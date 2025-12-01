@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.koishi",
+  "extends": "../../tsconfig.base",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib"

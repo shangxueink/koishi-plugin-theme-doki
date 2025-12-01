@@ -1,7 +1,7 @@
 import { Context, Schema, store, useConfig } from '@koishijs/client'
 import { usePreferredDark } from '@vueuse/core'
-import type {} from 'koishi-plugin-theme-doki'
-import type {} from 'koishi-plugin-wallpaper'
+import type { } from 'koishi-plugin-theme-doki'
+import type { } from 'koishi-plugin-wallpaper'
 import { computed, watchEffect } from 'vue'
 
 import { AssetsInfo, applyTheme, assetNameMap } from './theme'
@@ -41,7 +41,7 @@ export type DokiThemeConfig = DokiThemeBaseConfig &
   DokiThemeStickerConfig
 
 const DEFAULT_BASE_URL =
-  'https://raw.gitmirror.com/doki-theme/doki-theme-assets/master/'
+  'https://cdn.jsdmirror.com/gh/doki-theme/doki-theme-assets@master/'
 
 export const DokiThemeConfig: Schema<DokiThemeConfig> = Schema.intersect([
   Schema.intersect([

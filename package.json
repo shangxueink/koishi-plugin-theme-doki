@@ -14,7 +14,7 @@
   },
   "scripts": {
     "format": "prettier --config ../../.prettierrc.yml --ignore-path .prettierignore -cw .",
-    "generate": "tsx ./scripts/generate-theme.mts && yarn format"
+    "generate": "tsx ./scripts/generate-theme.mts"
   },
   "files": [
     "lib",
