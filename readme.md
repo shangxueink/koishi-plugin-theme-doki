@@ -67,6 +67,10 @@ Telegram：[@lgc2333](https://t.me/lgc2333)
 
 ## 📝 更新日志
 
+### 0.2.6
+
+- 使用 cdn.jsdmirror.com 加速资源访问 ([#1](https://github.com/lgc-KoiDev/koishi-plugin-theme-doki))
+
 ### 0.2.5
 
 - 更新依赖
