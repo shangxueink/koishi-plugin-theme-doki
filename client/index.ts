@@ -41,7 +41,7 @@ export type DokiThemeConfig = DokiThemeBaseConfig &
   DokiThemeStickerConfig
 
 const DEFAULT_BASE_URL =
-  'https://raw.gitmirror.com/doki-theme/doki-theme-assets/master/'
+  'https://cdn.jsdmirror.com/gh/doki-theme/doki-theme-assets@master/'
 
 export const DokiThemeConfig: Schema<DokiThemeConfig> = Schema.intersect([
   Schema.intersect([
