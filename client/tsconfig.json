@@ -1,5 +1,5 @@
 {
-  "extends": "../../../tsconfig.koishi",
+  "extends": "../../../tsconfig",
   "compilerOptions": {
     "rootDir": ".",
     "jsx": "preserve",
